@@ -1,0 +1,32 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+header h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+section h2 {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+section p {
+  margin-left: 1.5rem;
+}
+
+section input,
+button {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#notaId,
+#permisId,
+#numberId,
+#valueId {
+  background-color: rgb(189, 224, 189);
+  display: inline;
+}

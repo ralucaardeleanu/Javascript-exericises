@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript exercises</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header><h1>Javascript</h1></header>
+    <main>
+      <section class="section-one">
+        <h2>IF ELSE</h2>
+        <p>
+          1.Dacă ai luat cel puțin 22 de puncte la sală și sub 21 de puncte de
+          penalizare la examen, ai luat carnetul auto, altfel ai picat.
+        </p>
+        <input id="myInputSala" type="text" /> <br />
+        <input id="myInputPermis" type="text" /> <br />
+        <button type="button" onclick="permisAuto2()">Calcul</button>
+        <p>Raspuns:</p>
+        <p id="permisId"></p>
+
+        <p>
+          2. Dorim sa afisam un mesaj cutomizat, in functie de nota obtinuta.
+          Daca nota e mai mare de 9, afisam "Nota mare!". Daca ai luat nota mai
+          mare de 8, afisam "Nota buna!". Daca ai luat nota mai mare de 5,
+          afisam "Ai trecut!". Altfel, asisam "Mai incearca.
+        </p>
+        <input id="myInputNota" type="text" /> <br />
+
+        <button type="button" onclick="calculNota2()">Calcul</button>
+        <p>Raspuns:</p>
+        <p id="notaId"></p>
+
+        <p>
+          3.Problema FizzBuzz. Daca numarul e divizibil cu 3 afiseaza "Fizz".
+          Daca numarul e divizibil cu 5 afiseaza "Buzz". Daca numarul e
+          divizibil si cu 3 si cu 5 afiseaza "FizzBuzz". Altfel afiseaza
+          numarul.
+        </p>
+        <input id="myInputNumber" type="text" /> <br />
+
+        <button type="button" onclick="calculFizzBuzz2()">Calcul</button>
+        <p>Raspuns:</p>
+        <p id="numberId"></p>
+
+        <p>
+          4.Se da o variabila care reprezinta o codificare pentru rezultatul
+          unui meci de fotbal. Daca are valoarea '1', gazdele au castigat. Daca
+          are valoarea 'X', este egalitate. Daca are valoare '2', oaspetii au
+          castigat. Orice alta valoare este invalida.
+        </p>
+        <input id="myInputValue" type="text" /> <br />
+
+        <button type="button" onclick="calculMeci()">Calcul</button>
+        <p>Raspuns:</p>
+        <p id="valueId"></p>
+      </section>
+      <section class="section-two">
+        <h2>Print the numbers from 0 to 15.</h2>
+        <button type="button" onclick="print1()">Afisare</button>
+        <p id="paragraph1"></p>
+      </section>
+    </main>
+  </body>
+</html>
